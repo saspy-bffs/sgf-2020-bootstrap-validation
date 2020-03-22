@@ -2,15 +2,19 @@
 
 # Simple and Efficient Bootstrap Validation of Predictive Models Using SAS/STAT Software
 
-### Materials from an invited presentation at [SAS Global Forum](https://www.sas.com/en_us/events/sas-global-forum.html) in Washington, D.C., on April 1, 2020.
+### Materials for an invited paper at [SAS Global Forum](https://www.sas.com/en_us/events/sas-global-forum.html), which was originally scheduled to be held in Washington, D.C., on April 1, 2020. (The conference was unfortunately cancelled, due to COVID-19 concerns.)
 
 Materials provided:
 
-- [To be added]
+- [Full conference paper](SGF2020-Paper-Simple_and_Efficient_Bootstrap_Validation.pdf)
+
+- Running example from the paper in both [Jupyter Notebook](SGF2020-Paper-Simple_and_Efficient_Bootstrap_Validation-Examples.ipynb) and [.sas](SGF2020-Paper-Simple_and_Efficient_Bootstrap_Validation-Examples.sas) format
 
 ## Prerequisites
 
-[To be added]
+The Jupyter Notebook example file assumes SAS University Edition ([https://www.sas.com/en_us/software/university-edition/download-software.html](https://www.sas.com/en_us/software/university-edition/download-software.html)) is being used.
+
+However, any installation of SAS 9.4 with SAS/STAT can be used for the .sas version.
 
 ## License
 This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for details.
