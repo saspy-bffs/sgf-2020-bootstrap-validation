@@ -44,7 +44,7 @@ Pre-example Setup Part 3
 The code below subsets the dataset downloaded above to rows with no missing values for the predicator variables, as well as creating a response variable. Only SAS log output should be created.
 */
 data example_dataset;
-    set analysis_data;
+    set work.analysis_data;
     
     * Create outcome variable;
     if (&response_variable_condition.) then &response_variable. = 1;
