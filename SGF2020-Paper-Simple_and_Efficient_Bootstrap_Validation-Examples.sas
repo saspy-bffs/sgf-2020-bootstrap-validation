@@ -109,7 +109,7 @@ ods output Association=bootstrap_association_table(
     keep=Replicate Label2 nValue2
     rename=(nValue2=c_statistic_value)
 );
-proc logistic data=bootstrap_samples outmodel=bootstap_models;
+proc logistic data=bootstrap_samples outmodel=bootstrap_models;
     by Replicate;
     class &class_variables.;
     model &outcome. = &predictor_variables.;
@@ -123,12 +123,12 @@ Running Example -- Step 4: Test Bootstrap Models
 See page 7 of the paper at https://github.com/saspy-bffs/sgf-2020-bootstrap-validation. Only SAS log output should be created.
 */
 
-* Score original dataset with bootstap models;
+* Score original dataset with bootstrap models;
 ods output Scorefitstat=bootstrap_scores(
     keep=Replicate AUC
     rename=(AUC=c_statistic_value)
 );
-proc logistic inmodel=bootstap_models;
+proc logistic inmodel=bootstrap_models;
     score
         data=example_dataset
         fitstat
