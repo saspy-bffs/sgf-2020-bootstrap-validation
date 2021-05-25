@@ -6,11 +6,11 @@
 
 Materials provided:
 
-- [Full conference paper](SGF2020-Paper-Simple_and_Efficient_Bootstrap_Validation.pdf)
+- [Full conference paper](Paper-SGF2020-Simple_and_Efficient_Bootstrap_Validation.pdf)
 
-- [Slides](SGF2020-Paper-Simple_and_Efficient_Bootstrap_Validation-slides.pdf)
+- [Slides](Slides-SGF2020-Paper-Simple_and_Efficient_Bootstrap_Validation.pdf)
 
-- Running example from the paper in both [Jupyter Notebook](SGF2020-Paper-Simple_and_Efficient_Bootstrap_Validation-Examples.ipynb) and [.sas](SGF2020-Paper-Simple_and_Efficient_Bootstrap_Validation-Examples.sas) format
+- Running example from the paper in both [Jupyter Notebook](examples/Examples-SGF2020-Paper-Simple_and_Efficient_Bootstrap_Validation.ipynb) and [.sas](examples/Examples-SGF2020-Paper-Simple_and_Efficient_Bootstrap_Validation.sas) format
 
 ## Prerequisites
 
