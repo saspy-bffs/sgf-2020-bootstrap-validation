@@ -2,7 +2,7 @@
 
 # Simple and Efficient Bootstrap Validation of Predictive Models Using SAS/STAT Software
 
-### Materials for an invited paper at [SAS Global Forum](https://www.sas.com/en_us/events/sas-global-forum.html), which was originally scheduled to be held in Washington, D.C., on April 1, 2020. (The conference was unfortunately cancelled, due to COVID-19 concerns.)
+### Materials for an invited paper at [SAS Global Forum](https://github.com/sascommunities/sas-global-forum-2020), which was originally scheduled to be held in Washington, D.C., on April 1, 2020. (The conference was unfortunately cancelled, due to COVID-19 concerns.)
 
 Materials provided:
 
